@@ -1,0 +1,2 @@
+1. 10k resistor
+2. 10k thermistor
