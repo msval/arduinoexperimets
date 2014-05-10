@@ -1,0 +1,24 @@
+Most of the stuff is listed under:
+
+http://www.instructables.com/id/How-to-program-attiny-using-arduino-uno/
+
+unpack the tiny.zip file to Arduino hardware folder
+/Users/username/Documents/Arduino/hardware
+
+Upload examples > ArduinoISP to the uno board
+
+Connect everything according to schematics
+
+open new sketch (copy the cylon_eye example)
+
+Select Tools > board > ATtiny85 @ 8MHz
+
+Select Tools > programmer > Arduino as ISP
+
+Note:
+-----
+Every time a sketch will be uploadeda message will be shown
+
+avrdude: please define PAGEL and BS2 signals in the configuration file for part ATtiny85
+
+Simply ignore it ;)
